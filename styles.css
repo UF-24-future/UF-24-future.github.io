@@ -1,0 +1,179 @@
+/*HOME PAGE*/
+.hero{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-text h1{
+    font-size: clamp(14px,3.25vw,54px);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.hero-text p{
+    font-size:clamp(5px,3vw,20px);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+/*NAVIGATION BAR*/
+
+.nab ul{
+    list-style-type: none;
+    background-color: green;
+    padding: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.nab li{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    padding-left: 4.6%;
+    padding-right: 4.6%;
+    display: block;
+    text-align: center;
+    float: left;
+    transition: background-color 0.5s linear;
+}
+.nab li:hover{
+    background-color: rgb(25, 104, 25);
+}
+
+/*HEADING*/
+.h1{
+    background-color: rgba(107, 48, 18, 0.1);
+    margin-top:5%;
+    margin-bottom: 15%;
+    padding: 2%;
+
+}
+
+.h2 {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 255,0.2);
+}
+
+.h3{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    height: 1240px;
+    background-color: rgba(0, 255, 132, 0.2)
+}
+
+.h31{
+    margin:5%;
+    padding-left:5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h32{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h33{
+    margin: 5%;
+    margin-left:7.75% ;
+}
+
+.h33a th{
+    padding-left:50px;
+    padding-right: 50px;
+
+}
+
+.h33a td{
+    padding-top: 10px;
+    padding-left:50px;
+    text-align:left;
+    font-size: 20px;
+}
+
+/*BOOK*/
+.h4{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    height: 1240px;
+    background-color: rgba(238, 238, 15,0.3)
+}
+
+.h6{
+     margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(238, 15, 71, 0.2)
+}
+
+.h7{
+    background-color: rgba(250, 235, 215, 0.342);
+    width: 100%;
+    height: 70%;
+    border: 1cm solid black;
+    border-radius: 15px;
+}
+/*PAragraph*/
+
+.p1{
+    margin:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+#t1{
+    height: 300px;
+}
+
+/*GRID*/
+.top{
+    border: 2px solid black;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottom{
+    display: flex;
+}
+
+.bottom p{
+    flex: 1;
+    border: 2px solid black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
